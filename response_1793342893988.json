@@ -1,0 +1,6 @@
+{
+  "request_id": "906bf708143b",
+  "predicted_median_house_value": 435277.44,
+  "model_version": "rf-20261030",
+  "inference_ms": 59.722
+}
