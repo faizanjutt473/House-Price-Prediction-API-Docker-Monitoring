@@ -1,0 +1,25 @@
+{
+  "model": {
+    "version": "rf-20261030",
+    "trained_at": "2026-10-30T08:31:22+00:00",
+    "test_metrics": {
+      "mae_usd": 33551.83,
+      "rmse_usd": 51392.72,
+      "r2": 0.7984
+    }
+  },
+  "uptime_seconds": 372.0,
+  "predictions_served": 600,
+  "latency": {
+    "requests_total": 600,
+    "status_counts": {
+      "200": 600
+    },
+    "window_size": 600,
+    "mean_ms": 56.801,
+    "p50_ms": 57.16,
+    "p95_ms": 80.212,
+    "p99_ms": 90.741,
+    "max_ms": 136.992
+  }
+}

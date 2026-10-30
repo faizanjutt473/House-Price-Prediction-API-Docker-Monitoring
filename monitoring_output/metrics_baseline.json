@@ -1,0 +1,1 @@
+{"model":{"version":"rf-20261030","trained_at":"2026-10-30T08:31:22+00:00","test_metrics":{"mae_usd":33551.83,"rmse_usd":51392.72,"r2":0.7984}},"uptime_seconds":141.2,"predictions_served":752,"latency":{"requests_total":752,"status_counts":{"200":752},"window_size":752,"mean_ms":64.091,"p50_ms":57.713,"p95_ms":133.967,"p99_ms":162.229,"max_ms":234.126}}
