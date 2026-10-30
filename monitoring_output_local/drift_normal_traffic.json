@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-10-30T06:51:55+00:00",
+  "samples": 300,
+  "window_size": 500,
+  "min_samples": 100,
+  "thresholds": {
+    "psi_warning": 0.1,
+    "psi_drift": 0.2,
+    "ks_alpha": 0.01
+  },
+  "status": "ok",
+  "drift_detected": false,
+  "drifted_features": [],
+  "warning_features": [],
+  "features": {
+    "med_inc": {
+      "status": "ok",
+      "psi": 0.0243,
+      "ks_statistic": 0.0427,
+      "ks_pvalue": 0.778894,
+      "train_mean": 3.8808,
+      "live_mean": 3.8626
+    },
+    "house_age": {
+      "status": "ok",
+      "psi": 0.0247,
+      "ks_statistic": 0.052,
+      "ks_pvalue": 0.543708,
+      "train_mean": 28.6083,
+      "live_mean": 29.5467
+    },
+    "ave_rooms": {
+      "status": "ok",
+      "psi": 0.0135,
+      "ks_statistic": 0.054,
+      "ks_pvalue": 0.495146,
+      "train_mean": 5.4352,
+      "live_mean": 5.2559
+    },
+    "ave_bedrms": {
+      "status": "ok",
+      "psi": 0.039,
+      "ks_statistic": 0.084,
+      "ks_pvalue": 0.072895,
+      "train_mean": 1.0967,
+      "live_mean": 1.0642
+    },
+    "population": {
+      "status": "ok",
+      "psi": 0.02,
+      "ks_statistic": 0.061,
+      "ks_pvalue": 0.343617,
+      "train_mean": 1426.453,
+      "live_mean": 1425.2333
+    },
+    "ave_occup": {
+      "status": "ok",
+      "psi": 0.0406,
+      "ks_statistic": 0.0657,
+      "ks_pvalue": 0.261505,
+      "train_mean": 3.097,
+      "live_mean": 2.9585
+    },
+    "latitude": {
+      "status": "ok",
+      "psi": 0.0621,
+      "ks_statistic": 0.0777,
+      "ks_pvalue": 0.11747,
+      "train_mean": 35.6431,
+      "live_mean": 35.4622
+    },
+    "longitude": {
+      "status": "ok",
+      "psi": 0.0283,
+      "ks_statistic": 0.0863,
+      "ks_pvalue": 0.06057,
+      "train_mean": -119.5823,
+      "live_mean": -119.4296
+    }
+  }
+}
